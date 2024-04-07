@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#play {
+    height: 50%;
+    width: 50%;
+    background-color: rgb(108, 108, 209);
+    border-radius: 4px;
+}
+
+/* 텍스트 디자인 */
+
+.text-color {
+    color: white
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+/*  */
+
+#animated-input {
+    transition: transform 0.1s ease;
+}
+
+#animated-input:focus {
+    transform: scale(1.1);
+}
+
+/* add some space */
+
+.padding-80 {
+    padding: 0 10%
+}
